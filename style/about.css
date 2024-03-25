@@ -1,0 +1,10 @@
+.about {
+    min-height: 441px;
+}
+.about img {
+    float: left;
+    max-width: 630px;
+    object-fit: cover;
+    border-radius: var(--border-radius_for_all);
+    margin: 0 30px 30px 0;
+}

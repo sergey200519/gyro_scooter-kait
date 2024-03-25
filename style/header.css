@@ -1,0 +1,21 @@
+
+.header .container {
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    width: 80px;
+    height: 84px;
+}
+.header .container h1,
+.header .container nav a {
+    font-size: var(--font-size_menu_item);
+    font-weight: var(--font-weight_menu_item);
+}
+.header .header_right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
